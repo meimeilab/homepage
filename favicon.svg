@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- 背景の円 -->
+  <circle cx="16" cy="16" r="15" fill="#fff0f5"/>
+  
+  <!-- 桜の花びら -->
+  <g transform="translate(16, 16)">
+    <!-- 上の花びら -->
+    <ellipse cx="0" cy="-7" rx="4" ry="6" fill="#ffb6c1" transform="rotate(0)"/>
+    <!-- 右上の花びら -->
+    <ellipse cx="0" cy="-7" rx="4" ry="6" fill="#ffc0cb" transform="rotate(72)"/>
+    <!-- 右下の花びら -->
+    <ellipse cx="0" cy="-7" rx="4" ry="6" fill="#ffb6c1" transform="rotate(144)"/>
+    <!-- 左下の花びら -->
+    <ellipse cx="0" cy="-7" rx="4" ry="6" fill="#ffc0cb" transform="rotate(216)"/>
+    <!-- 左上の花びら -->
+    <ellipse cx="0" cy="-7" rx="4" ry="6" fill="#ffb6c1" transform="rotate(288)"/>
+    
+    <!-- 中心の円 -->
+    <circle cx="0" cy="0" r="3" fill="#fff"/>
+    <circle cx="0" cy="0" r="2" fill="#ffd700"/>
+  </g>
+</svg>
